@@ -3,9 +3,7 @@ Description=Telegram Bot for Kindle Highlights Upload to Notion
 After=network.target
 
 [Service]
-User=root  # 替换为你的用户名
-WorkingDirectory=/home/root/config/KindleToNotion  # Python 脚本所在的工作目录
-ExecStart=/usr/bin/python3 /home/root/config/KindleToNotion/main.py  # Python 脚本的路径
+ExecStart=/usr/bin/python3 /root/config/KindleToNotion/main.py  # Python 脚本的路径
 Restart=always
 RestartSec=5
 
