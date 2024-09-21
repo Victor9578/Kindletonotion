@@ -29,6 +29,6 @@ class Highlights:
             self.highlights.append({"loc": loc, "content": content})
 
         # 打印解析结果
-        print(f"Book Title: {self.book_title}")
+        print(f"Book Title: {self.book_title},共{len(self.highlights)}条Highlights!")
         # for highlight in self.highlights:
         #     print(f"Location: {highlight['loc']}, Content: {highlight['content']}")
