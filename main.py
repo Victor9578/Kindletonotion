@@ -5,7 +5,7 @@ from telegram import Update, Bot
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
 # Telegram Bot API Token
-TELEGRAM_API_TOKEN = "7193885443:AAHryajF3yuqWpSDEVVbLawLUNqENfoN9Cw"
+TELEGRAM_API_TOKEN = "7275940612:AAGuPFUupXs3Snfq-9L6ZclUx9iNGqxbLME"
 
 
 async def start(update: Update, context):
